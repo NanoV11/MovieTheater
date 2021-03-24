@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+header nav a h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    color: #FF66F5;
+    font-size: 30px;
+}
+header{
+    height: 206px;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;
+}
+header nav {
+    width: 88%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid white;
+}
+header nav .main-list{
+    display: flex;
+    float: right;
+}
+header nav .main-list li {
+    margin-left: 30px;
+}
+header nav .main-list li a{
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+header nav .main-list li:hover a{
+    color: #FF66F5;
+}
+header .header-div{
+    width: 88%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.header-div ul {
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+.header-div ul li a{
+    color:#fff;
+    font-size: 20px;
+    margin-right: 13px;
+}
+.header-div a{
+    display: flex;
+    align-items: center;
+}
+.header-div .header-div-user i {
+    font-size: 20px;
+    color: #FF66F5;
+    margin-right: 13px;
+}
+.header-div .header-div-user p{
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    transition: all 0.2s ease;
+}
+.header-div .header-div-user:hover p{
+    color: rgba(255, 255, 255, 0.678);
+}
+.first-page{
+    position: relative;
+}
+.text-over{
+    position:absolute;
+    top: 40%;
+    left: 5%;
+}
+.text-over h1{
+    font-size: 90px;
+    color: #fff;
+    font-family: 'Suez One', serif;
+    font-weight: 400;
+    width: 800px;
+    line-height: 120%;
+    margin: 0;
+}
+.text-over p{
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+    width: 550px;
+    line-height: 170%;
+}
+.text-over button{
+    width: 150px;
+    height: 55px;
+    background-color: #FF66F5;
+    outline: none;
+    border: 1px solid white;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 25px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.text-over button:hover{
+    background-color: white;
+}
+.second-page{
+    background-color: #3843CD;
+    margin: 0;
+}
+.second-page .text h3{
+    color: white;
+    font-size: 28px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-left: 100px;
+    width: 1310px;
+    border-bottom: 2px solid white;
+}
+.flex-box{
+    display: flex;
+    width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.flex-box div img, .flex-box-text{
+    margin-left: -8px;
+}
+.flex-box div img{
+    width: 300px;
+    height: 400px;
+}
+.flex-box div .flex-box-text {
+    color: white;
+}
+.flex-box .flex-box-text h3{
+    font-size: 30px;
+    font-family: 'Suez One', serif;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+.flex-box .flex-box-text p{
+    font-size: 21px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.second-page .button{
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+.second-page .button button{
+    width: 200px;
+    height: 50px;
+    background-color: #FF66F5;
+    outline: none;
+    border: 1px solid white;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    margin-top: 25px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+.second-page .button button:hover{
+    background-color: white;
+}
+.coming{
+    margin-left: 100px;
+}
+.coming h3{
+    font-size: 28px;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex div{
+    width: 435px;
+    height: 210px;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+}
+.flex div button{
+    width: 70px;
+    height: 40px;
+    border-radius: 20%;
+    outline: none;
+    background-color: #0E0A48;
+    color: #FF66F5;
+    margin-top: 40px;
+    border: none;
+}
+.flex div h2 {
+    font-size: 30px;
+    font-family: 'Suez One', serif;
+    font-weight: 500;
+    margin: 15px 0px;
+    margin-bottom: 18px;
+}
+.flex div a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.flex div a i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+.flex div a p {
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    margin:0;
+}
