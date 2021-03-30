@@ -1,0 +1,603 @@
+@media all and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+    }
+    .second-page .text h3 , .coming{
+        margin-left: 20px;
+    }
+    .second-page .text h3{
+        width: 940px;
+    }
+    .flex-box {
+        width: 950px;
+    }
+    .fixed{
+        display: none;
+    }
+    .flex-box .lastone{
+        display: none;
+    }
+    .flex div:first-child{
+        margin-left: 50px;
+    }
+    .coming-soon{
+        margin: auto;
+    }
+    .numbers {
+        width: 960px;
+        margin: auto;
+    }
+    .snacks{
+        width: 950px;
+    }
+    footer .bottom {
+        width: 950px;
+    }
+    footer .fourth button{
+        width: 120px;
+        height: 47px;
+    }
+    footer .first p{
+        width: 200px;
+    }
+    footer .second{
+        margin-left: -50px;
+    }
+    footer .first{
+        width: 230px;
+    }
+    .text-over{
+        top: 19%;
+    }
+    .text-over h1{
+        font-size: 60px;
+        width:500px;
+    }
+    .text-over p{
+        font-size: 16px;
+        width: 430px;
+    }
+    .text-over button{
+        width: 110px;
+        height: 42px;
+        font-size: 15px;
+    }
+    .about .first-describtion,.about .second-describtion{
+        width: 800px;
+    }
+    .about img{
+        width: 500px;
+        height: 414px;
+    }
+    .about-flex div{
+        width: 450px;
+        height:350px;
+        margin-left: -20px;
+    }
+    .about-flex .about-flex-first h3{
+        margin-top: 50px;
+    }
+    .about-flex .about-flex-second{
+        margin-left: 1px;
+    }
+    .about-flex .about-flex-second h3{
+        margin-top: 50px;
+    }
+    .main-text h3{
+        border: none;
+        font-size: 30px;
+        box-sizing: border-box;
+        padding-top: 40px;
+    }
+    .snackbar-flex{
+        width: 1020px;
+    }
+    .flex-boxes-first{
+        width: 600px;
+    }
+    .flex-boxes-second{
+        width: 380px;
+    }
+    .flex-boxes-second div{
+        margin-left: 80px;
+    }
+    .input-flex{
+        margin-left: -70px;
+    }
+    .flex-boxes-first form input{
+        width: 240px;
+        height: 60px;
+    }
+    .flex-boxes-first form textarea,.textarealabel,.flex-boxes-first button{
+        margin-left: -70px;
+        width: 485px;
+    }
+    .about button{
+        width: 485px;
+        height: 55px;
+        border: none;
+    }
+    .map-text,.map iframe,.map{
+        width: 1020px;
+    }
+    .movies-flex-first,.movies-flex-second{
+        width: 495px;
+    }
+    .movies-flex-first h3,.movies-flex-first div{
+        margin-left: 65px;
+    }
+    .movies-flex-second h3,.movies-flex-second p{
+        margin-left: 90px;
+    }
+    .buy-tickets{
+        width: 1010px;
+    }
+    .buy-tickets a{
+        width: 930px;
+    }
+    .over-img{
+        display: none;
+    }
+}
+@media all and (max-width: 400px){
+    body{
+        overflow-x: hidden;
+    }
+    .fixed{
+        display: none;
+    }
+    .header-div ul, .header-div a{
+        display: none;
+    }
+    header nav {
+        height: 85px;
+    }
+    .header nav{
+        height: 90px;
+        width: 100%;
+    }
+    
+    .header nav a h1{
+        margin-left: 15px;
+    }
+    header nav a h1{
+        width: 65px;
+        font-size: 18px;
+    }
+    .first-page img{
+        height: 500px;
+        object-fit: cover;
+        object-position: left top;
+    }
+    header nav .main-list{
+        margin-right: 12px;
+    }
+    header nav .main-list li{
+        margin-left: 12px;
+    }
+    header nav .main-list li a{
+        font-size: 14px;
+    }
+    .text-over{
+        top: 17%;
+    }
+    main .text-over h1{
+        font-size: 35px;
+        width: 300px;
+    }
+    .text-over p{
+        font-size: 12px;
+        width: 320px;
+    }
+    .text-over button{
+        width: 100px;
+        height: 35px;
+    }
+    .second-page .text h3{
+        width: 350px;
+        font-size: 20px;
+        padding-bottom: 17px;
+        margin-left: 15px;
+    }
+    .flex-box{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 365px;
+        margin-top: 30px;
+    }
+    .flex-box div img{
+        width: 250px;
+        height: 330px;
+    }
+    .flex-box .flex-box-text h3{
+        font-size: 20px;
+    }
+    .flex-box .flex-box-text p{
+        font-size: 16px;
+    }
+    .second-page .button button{
+        margin-top: 10px;
+    }
+    .coming h3{
+        font-size: 23px;
+        margin-top: 60px;
+    }
+    .coming{
+        margin-left: 8px;
+    }
+    .flex div:first-child{
+        margin-left: 0px;
+    }
+    .flex div:nth-child(3){
+        margin-left: 0px;
+    }
+    .flex div{
+        width: 355px;
+        height: 170px;
+    }
+    .flex div button{
+        width: 65px;
+        height: 35px;
+        margin-top: 25px;
+    }
+    .flex div h2{
+        font-size: 22px;
+    }
+    .how-it-works,.how-it-works-text{
+        display: none;
+    }
+    .pink,.pink h3,.text-over-pink,.prices{
+        width: 373px;
+    }
+    .pink{
+        height: 400px;
+    }
+    .pink h3{
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+    .text-over-pink h4{
+        font-size: 20px;
+    }
+    .prices h2{
+        font-size:50px;
+    }
+    .snacks img{
+        display: none;
+    }
+    .snacks{
+        height: 830px;
+        width: 375px;
+        top: 24%;
+        flex-wrap: wrap;
+    }
+    .snacks h2{
+        font-size: 18px;
+        padding-bottom: 15px;
+    }
+    .snacks-first{
+        margin-top: 20px;
+    }
+    .snacks ul li{
+        font-size: 23px;
+    }
+    .snacks button{
+        width: 140px;
+        height: 40px;
+        margin-left: 60px;
+    }
+    .drinks{
+        margin-left: -20px;
+        margin-top: -60px;
+    }
+    .drinks h2{
+        margin-left: 0px;
+    }
+    .drinks button{
+        margin-left: 30px;
+    }
+    .join{
+        margin-top: 750px;
+    }
+    .join h3{
+        font-size: 22px;
+    }
+    .join p{
+        width: 370px;
+        font-size: 15px;
+    }
+    .join .input{
+        width: 370px;
+    }
+    .join input{
+        width: 360px;
+        height: 60px;
+        font-size: 20px;
+    }
+    .join input::placeholder{
+        font-size: 22px;
+    }
+    .join .button{
+        width: 370px;
+    }
+    .join button{
+        width: 370px;
+        height: 60px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    footer{
+        padding-top: 20px;
+    }
+    footer .footer{
+        display: block;
+    }
+    .first {
+        width: 300px;
+    }footer .first h2{
+      text-align: center;
+    }
+    footer .first p{
+        width: 360px;
+        margin-left: 8px;
+    }
+    footer .second{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    footer .second ul{
+        display: flex;
+    }
+    .second ul li{
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .third{
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .fourth{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .fourth ul {
+        margin:0px;
+        margin-left: 80px;
+    }
+    footer .fourth button{
+        width: 125px;
+        height: 45px;
+        margin-left: 10px;
+    }
+    footer .bottom{
+        width: 360px;
+        padding-bottom:30px;
+    }
+    footer .bottom p{
+        font-size: 15px;
+    }
+    .header{
+        height: 90px;
+    }
+    .main-text h3{
+        padding-bottom: 60px;
+    }
+    .about .first-describtion,.about .second-describtion{
+        width: 360px;
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .about img{
+        width: 350px;
+        height: 260px;
+    }
+    .about-flex div{
+        width: 365px;
+    }
+    .about-flex .about-flex-first{
+        margin-left: 2px;
+    }
+    .about-flex .about-flex-first h3,.about-flex-second h3{
+        font-size: 22px;
+        width: 280px;
+    }
+    .about-flex .about-flex-first p{
+        width: 300px;
+        font-size: 15px;
+    }
+    .about-flex-second ul{
+        padding-left: 0px;
+        margin-left: 20px;
+        width: 270px;
+    }
+    .about-flex-second ul li{
+        width: 270px;
+    }
+    .snackbar-paragraph{
+        width: 360px;
+        font-size: 15px;
+    }
+    .snackbar-flex{
+        width: 375px;
+    }
+    .drinks{
+        margin-top: 0px;
+    }
+    .snacks-img img{
+        width: 350px;
+        height: 380px;
+        margin-top: 25px;
+    }
+    .map-text{
+        width: 372px;
+    }
+    .map{
+        width: 370px;
+    }
+    .map iframe{
+        width: 372px;
+        height: 500px;
+    }
+    .flex-boxes-second{
+        display: none;
+    }
+    .flex-boxes-first{
+        border: none;
+        width: 370px;
+        padding-left: 80px;
+    }
+    .flex-boxes-first form input{
+        width: 175px;
+        height: 50px;
+    }
+    .flex-boxes-first form textarea{
+        width: 350px;
+    }
+    .flex-boxes-first button{
+        width: 170px;
+        height: 45px;
+        margin:auto;
+    }
+    .movies-flex-first,.movies-flex-second{
+        width: 370px;
+    }
+    .movies-flex-first div{
+        margin-left: 20px;
+    }
+    .movies-flex-first div p{
+        width: 160px;
+        height: 80px;
+    }
+    .buy-tickets{
+        width: 375px;
+    }
+    .buy-tickets-flex-first{
+        width: 370px;
+    }
+    .buy-tickets a{
+        width: 330px;
+    }
+    .buy-tickets .display{
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Barlow', sans-serif;
+        font-weight: 400;
+        margin-right: 12px;
+    }
+    .buy-tickets a{
+        margin-left: 30px;
+    }
+    .buy-tickets h3{
+        display: none;
+    }
+    .buy-tickets a button{
+        width: 120px;
+        height: 35px;
+        font-size: 13px;
+    }
+}
+@media all and (max-width: 360px){
+    body{
+        overflow-x: hidden;
+    }
+    footer .first p{
+        width: 340px;
+    }
+    .header nav a h1{
+        margin-left: 15px;
+        font-size: 18px;
+        width: 64px;
+    }
+    header nav a h1{
+        width: 60px;
+        font-size: 17px;
+    }
+    .flex-box{
+        width: 360px;
+    }
+    .second-page .text h3{
+        width: 330px;
+    }
+    .pink, .pink h3, .text-over-pink, .prices{
+        width: 360px;
+    }
+    .snacks{
+        width: 360px;
+    }
+    .join input,.join p{
+        width: 350px;
+    }
+    .join button,.join .button{
+        width: 355px;
+    }
+    .snackbar-flex{
+        width: 340px;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+    footer .footer .snackbar-footer{
+        margin-left: 2px;
+    }
+    .snackbar-flex .snackbar-flex-text{
+        width: 340px;
+    }
+    .snackbar-flex .drinks{
+        margin: 0;
+    }
+    .snackbar-paragraph{
+        font-size: 13px;
+        width: 330px;
+        margin-left: 15px;
+    }
+    .snacks-img img{
+        width: 270px;
+        height: 350px;
+    }
+    .input-flex{
+        width: 330px;
+        margin-left: -75px;
+    }
+    .textarealabel,.flex-boxes-first form textarea{
+        margin-left: -75px;
+    }
+    .map,.map-text, .map iframe{
+        width: 360px;
+    }
+    .buy-tickets .movies-flex-first{
+        width: 350px;
+    }
+    .movies-flex-first div{
+        margin-left: 50px;
+    }
+    .movies-flex-first,.movies-flex-second{
+        width: 350px;
+    }
+    .buy-tickets{
+        width: 350px;
+        height: 1025px;
+        margin-left: 0px;
+    }
+    .buy-tickets a{
+        width: 310px;
+    }
+    .movies-flex-first div p{
+        width: 130px;
+        font-size: 30px;
+    }
+    .buy-tickets-flex-second{
+        width: 50px;
+    }
+    .buy-tickets .buy-tickets-flex-second h2{
+        font-size: 25px;
+    }
+    .buy-tickets .buy-tickets-flex-second div p{
+        font-size: 12px;
+    }
+    .buy-tickets .buy-tickets-flex-first .display{
+        font-size: 16px;
+        margin-left: -40px;
+    }
+}

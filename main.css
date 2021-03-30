@@ -1,6 +1,10 @@
 body{
     margin: 0;
     padding: 0;
+    max-width: 1800px;
+    width: 100%;
+    margin: auto;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -115,12 +119,15 @@ header .header-div{
 .first-page{
     position: relative;
 }
+.first-page img{
+    max-width: 100%;
+}
 .text-over{
     position:absolute;
     top: 40%;
     left: 5%;
 }
-.text-over h1{
+main .text-over h1{
     font-size: 90px;
     color: #fff;
     font-family: 'Suez One', serif;
@@ -128,6 +135,7 @@ header .header-div{
     width: 800px;
     line-height: 120%;
     margin: 0;
+    animation: text 8s;
 }
 .text-over p{
     font-size: 21px;
@@ -175,6 +183,20 @@ header .header-div{
     justify-content: space-between;
     margin-top: 40px;
     flex-wrap: wrap;
+}
+.flex-box div .over-img{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 164.35%;
+    z-index: 222;
+    margin-left: -8px;
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+.flex-box div:hover .over-img{
+    opacity: 1;
 }
 .flex-box div img, .flex-box-text{
     margin-left: -8px;
@@ -382,13 +404,13 @@ header .header-div{
     background-color: #3843CD;
     width: 1350px;
     height: 800px;
-    margin: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
     left: 0;
     right: 0;
+    margin: auto;
     top: 46%;
 }
 .snacks h2{
@@ -437,6 +459,7 @@ header .header-div{
 }
 .join{
     margin-top:830px;
+    position: static;
 }
 .join h3{
     padding-bottom: 20px;
@@ -608,6 +631,8 @@ footer .first p{
     margin-top: 25px;
 }
 
+/* about-page */
+
 .header{
     background-color: #252989;
     position:static;
@@ -661,6 +686,7 @@ footer .first p{
     display: flex;
     justify-content: center;
     padding-bottom: 80px;
+    flex-wrap: wrap;
 }
 .about-flex div{
     width: 680px;
@@ -706,6 +732,9 @@ footer .first p{
     font-weight: 400;
     padding-top: 10px;
 }
+
+/*snackbar-page*/
+
 .snackbar{
     background-color: #0E0A48;
     color: #fff;
@@ -725,6 +754,7 @@ footer .first p{
 .snackbar-flex{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .snackbar-flex-text{
     border: 1px solid #FF66F5;
@@ -765,6 +795,8 @@ footer .first p{
     width: 450px;
     height: 588px;
 }
+/*contact-page*/
+
 .flex-boxes{
     display: flex;
     margin-top: 70px;
@@ -873,6 +905,9 @@ footer .first p{
     padding-bottom: 0;
     padding-top: 30px;
 }
+
+/*tickets-page*/
+
 .main-bg{
     background-color: #0E0A48;
     padding-top: 80px;
@@ -883,6 +918,7 @@ footer .first p{
 .movies-flex{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .movies-flex-first{
     width: 650px;
@@ -992,6 +1028,9 @@ footer .first p{
     width: 550px;
     justify-content: space-between;
 }
+.buy-tickets .display{
+    display: none;
+}
 .buy-tickets a{
     display: flex;
     align-items: center;
@@ -1007,4 +1046,12 @@ footer .first p{
 }
 .main-bg{
     padding-bottom: 80px;
+}
+@keyframes text{
+    0%{
+        opacity:0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
