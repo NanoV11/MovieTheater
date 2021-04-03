@@ -18,6 +18,15 @@ header nav a h1{
     color: #FF66F5;
     font-size: 30px;
 }
+.responsive-nav-items{
+    display: block!important;
+    top: 80px!important;
+    right: 0px!important;
+    left: 0px!important;
+}
+.header-background {
+    background-image: linear-gradient(#391baf,#230d7a)!important;
+}
 header{
     height: 206px;
     position: absolute;
@@ -37,12 +46,14 @@ header nav {
     font-size: 20px;
     color: #FF66F5;
     display: none;
+    margin-right: 5px;
 }
 .Menu{
     display: none;
     position: absolute;
     top: -3%;
     right: 16%;
+    background-image: linear-gradient(#391baf,#230d7a)!important;
 }
 .Menu .list li a{
     color: #FF66F5;

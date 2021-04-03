@@ -149,6 +149,9 @@
     .fixed{
         display: none;
     }
+    header nav .main-list{
+        display: none;
+    }
     .header-div ul, .header-div a{
         display: none;
     }
