@@ -33,6 +33,20 @@ header nav {
     justify-content: space-between;
     border-bottom: 2px solid white;
 }
+.openMenu{
+    font-size: 20px;
+    color: #FF66F5;
+    display: none;
+}
+.Menu{
+    display: none;
+    position: absolute;
+    top: -3%;
+    right: 16%;
+}
+.Menu .list li a{
+    color: #FF66F5;
+}
 header nav .main-list{
     display: flex;
     float: right;

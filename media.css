@@ -143,6 +143,9 @@
     body{
         overflow-x: hidden;
     }
+    header nav .openMenu{
+        display: block;
+    }
     .fixed{
         display: none;
     }
@@ -156,27 +159,23 @@
         height: 90px;
         width: 100%;
     }
-    
     .header nav a h1{
         margin-left: 15px;
     }
     header nav a h1{
-        width: 65px;
-        font-size: 18px;
+        width: 90px;
+        font-size: 20px;
     }
     .first-page img{
         height: 500px;
         object-fit: cover;
         object-position: left top;
     }
-    header nav .main-list{
-        margin-right: 12px;
-    }
     header nav .main-list li{
-        margin-left: 12px;
+        margin-left: 8px;
     }
     header nav .main-list li a{
-        font-size: 14px;
+        font-size: 13px;
     }
     .text-over{
         top: 17%;
