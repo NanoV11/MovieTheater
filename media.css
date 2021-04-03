@@ -294,10 +294,13 @@
         margin-top: -60px;
     }
     .drinks h2{
-        margin-left: 0px;
+        margin-left: 80px;
+    }
+    .drinks ul{
+        margin-left: 80px;
     }
     .drinks button{
-        margin-left: 30px;
+        margin-left: 110px;
     }
     .join{
         margin-top: 750px;
